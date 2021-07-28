@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -49,7 +48,7 @@ body{
     display: flex;
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    height: 900px;
+    height: 700px;
     margin-top: 120px;
 }
 
@@ -58,12 +57,98 @@ body{
 }
 .top-section-half-width > h2{
     font-size: 40px;
-    padding-top: 120px;
+    padding-top: 110px;
     line-height: 1.9;
     font-weight: 900;
     color: gray;
     letter-spacing: 0.2rem;
+    text-align: start;
 
 }
+.top-section-half-width > p{
+    text-align: start;
+}
+
+.recipes{
+    display: flex;
+    justify-content:space-evenly;
+}
+.recipes-card{
+    
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+.recipes-card > h3{
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.recipes-card > p{
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 15px;
+    text-align: start;
+}
+#image-card-one{
+    background-image: url(images/food/Project\ Cover1.jpg);
+    height: 200px;
+    background-position: center;
+    border-radius: 10px;
+    margin: 10px;
+}#image-card-two{
+    background-image: url(images/food/Project\ Cover7.png);
+    height: 200px;
+    background-position: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+#image-card-three{
+    background-image: url(images/food/Project\ Cover5.png);
+    height: 200px;
+    background-position: center;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.followers{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.followers-social{
+    text-align: center;
+    
+
+}
+.followers-social > h3 {
+    font-size: 30px;
+}
+.footer{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:white
+    
+
+}
+.footer > h2{
+    text-align: center;
+    color:gray;
+    text-transform: uppercase;
+    
+}
+.footer > p{
+    text-align: center;
+    color:gray;
+    text-transform: capitalize;
+    
+}
+
+
+
 
 
